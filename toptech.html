@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toptech clone</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+        }
+        .navbar{
+            height:100px;
+            width:100%;
+            background-color:azure ;
+            top:0%;
+            left:0%;
+            position: fixed;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img{
+            height:100px;
+            width:200px;
+            padding-top: 20px;
+
+        }
+        .navlink{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap:35px;
+        }
+        .navlink li a{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: none;
+            color:black;
+             font-weight:800 ;
+             padding-right:20px;
+        }
+        .navlink li{
+            
+            list-style: none;
+           
+            
+        }
+        .navlink li a:hover{
+            color: rgb(12, 12, 145);
+        
+        }
+        #home{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding:80px 5%;
+        }
+        .first{
+            position: relative;
+            height:100vh;
+            width:100%;
+            top:100px;
+        }
+        .first img{
+            height:638px;
+            width:100%;
+            filter: brightness(60%);
+        }
+        .firstcontent{
+            position: absolute;
+            top:180px;
+            left:200px;
+            width: 80%;
+
+        }
+        .firstcontent h1{
+            color:white;
+            font-size:5rem;
+            align-items: center;
+        }
+        .firstcontent h2{
+            color:white;
+            font-size:large;
+            font-weight: 600;
+            font-family:serif
+        }
+        footer{
+            position: relative;
+            background-color:black;
+            color:white;
+            height:400px;
+            text-align: center;
+        }
+        footer .d1{
+            position: absolute;
+            top:80px;
+            left:100px;
+            width: 300px;
+            
+        }
+        footer .d2{
+            position: absolute;
+            top:80px;
+            left:460px;
+            width: 300px;
+        }
+        footer .d2 li{
+            list-style:none;
+        }
+         footer .d2 li:hover{
+            transform: scale(1.1);
+         }
+          footer .d3{
+            position: absolute;
+            top:80px;
+            left:750px;
+            width: 300px;
+        }
+        footer .d3 li{
+            list-style:none;
+        }
+         footer .d3 li:hover{
+            transform: scale(1.1);
+         }
+         footer .d4{
+            position: absolute;
+            top:80px;
+            left:1080px;
+            width: 300px;
+        }
+        footer .d4 li{
+            list-style:none;
+        }
+         footer .d4 li:hover{
+            transform: scale(1.1);
+         }
+         footer .d5{
+            position: absolute;
+            top:300px;
+            left:1250px;
+
+         }
+         @media (max-width:450px){
+
+         }
+    </style>
+</head>
+<body>
+   <div class="navbar">
+    <nav id="home">
+        <div class="logo">
+          <img src="https://tse1.mm.bing.net/th/id/OIP._Xqk9wmPurBV1Z1US9_VHwHaCt?pid=Api&P=0&h=180" alt="logo">
+        </div>
+        <input type="checkbox" hidden>
+          <ul class="navlink">
+            <li><a href="#"> Home</a></li>
+             <li><a href="#about">About</a> </li>
+              <li><a href="#services"> Services</a></li>
+               <li><a href="#courses">AllCourses</a> </li>
+                <li><a href="#internship">Internships</a></li>
+                 <li><a href="#projects">Projects</a></li>
+                  <li><a href="#blog"> Blogs</a></li>
+                   <li><a href="#enquiry">Enquiry</a></li>
+                    <li><a href="#register"> Register</a></li>
+                     <li><a href="#contact">1234567890</a></li>
+          </ul>
+    </nav>
+   </div> 
+   <div class="first">
+    <img src="https://tse2.mm.bing.net/th/id/OIP.zBP-FNyoeiftJD1PRt9MuAHaEK?pid=Api&P=0&h=180" alt="emp">
+
+   </div>
+   <div class="firstcontent">
+    <h1><b>Best Internships and training <br> services in chennai</b></h1>
+    <h2>Top tech developers is the leading providers of chennai's best internships and training services.Our comprehensive internship programs are designed to give students freshers  and job seekers real world experience and programming skills </h2>
+   </div>
+   <footer>
+    <div class="d1">
+        <h2 style="color:blue;">TOPTECH</h2>
+        <p>WE ARE FROM TOP TECH DEVELOPERS.. WE PROVIDE MORE THEN PROJECTS AND REAL TIME JOB BASED TRAINING .COMMUNICATION CLASSES ARE AVAILABLE NOW..</p>
+    </div>
+    <div class="d2">
+        <h2 style="color:blue;">SHORT LINKS</h2>
+        <ul>
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>Our Services</li>
+            <li>Our projects</li>
+            <li>Latest blogs</li>
+        </ul>
+    </div>
+     <div class="d3">
+        <h2 style="color:blue;">HELP LINKS</h2>
+        <ul>
+            <li>Terms of use</li>
+            <li>Privacy policy</li>
+            <li>Helps</li>
+            <li>FQA's</li>
+            <li>Contacts</li>
+        </ul>
+    </div>
+    <div class="d4">
+        <h2 style="color:blue;">CONTACT US</h2>
+        <ul>
+            <li>KK Nagar,Chennai</li> <hr style="width: 250px; color:blue;">
+            <li>1234567890</li><hr style="width: 250px; color:blue;">
+            <li>silviyagrace2005@gmail.com</li><hr style="width: 250px; color:blue;">
+        </ul>
+    </div>
+    <div class="d5">
+       
+        <p style="color: blue;">@Developed by G</p>
+       
+        </div>
+        <div class="d6">
+            <p></p>
+
+        </div>
+
+   </footer>
+</body>
+</html>

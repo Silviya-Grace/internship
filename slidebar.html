@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slidebar</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            min-height: 100vh;
+            padding:0;
+            margin:0;
+
+        }
+        .wrapper{
+            max-height:500px;
+            border:1px solid #ddd;
+            line-height: 120px;
+            display: flex;
+            overflow-x:scroll;
+            scroll-behavior: smooth;
+
+        }
+        .wrapper .img{
+            width:300px;
+            height:180px;
+            background-color: blueviolet;
+            text-align: center;
+            margin-right:10px;
+        }
+        .wrapper .img img{
+            border-radius: 5px;
+         
+        }
+        .courses h1{
+           color: rgb(11, 11, 11);
+        }
+        .courses h1:hover{
+            color:rgb(11, 107, 102);
+        }
+        .wrapper .img img:hover{
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+    <div class="courses">
+        <h1>Courses</h1>
+    </div>
+    </center>
+    <div class="wrapper">
+        <div class="img"><img src="https://tse4.mm.bing.net/th/id/OIP.ePqUMEtYVO5QHZ13iM-KjwHaEO?pid=Api&P=0&h=180" alt="java"></div>
+        <div class="img"><img src="https://tse3.mm.bing.net/th/id/OIP.jd2j5rPCfMsejs1M5pwbfQHaEK?pid=Api&P=0&h=180" alt="python"></div>
+        <div class="img"><img src="https://tse3.mm.bing.net/th/id/OIP.-sJoM78_BBDwobvnbhpRUwHaD5?pid=Api&P=0&h=180" alt="fsd"></div>
+        <div class="img"><img src="https://tse1.mm.bing.net/th/id/OIP.XrvM8VKUhcuYmuJG3fuC3wHaDe?pid=Api&P=0&h=180" alt="javafsd"></div>
+        <div class="img"><img src="https://tse4.mm.bing.net/th/id/OIP.2l-vJoshAJM8afBFzjTnfgHaDe?pid=Api&P=0&h=180" alt="pyfsd"></div>
+    </div>
+    <div>
+        <h2>IT COURSES</h2>
+       <div class="img1">
+        <img src="https://tse2.mm.bing.net/th/id/OIP._Lm_T3scKhVEVFC54gcRxwHaE8?pid=Api&P=0&h=180" alt="java">
+       </div>
+       <div class="img1">
+        <img src="a" alt="">
+       </div>
+       <div class="img1">
+
+       </div> 
+    </div>
+</body>
+</html>
